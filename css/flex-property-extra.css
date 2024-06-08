@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+.box {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 4px 4px rgba(0,0,0,0.1);
+  font-size: 50px;
+  flex: 1;
+}
+.b1 {
+  background: #1abc9c;
+  flex: 2;
+}
+.b2 {
+  background: #3498db;
+}

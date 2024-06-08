@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+.container {
+  display: flex;
+}
+.box {
+  flex: 1;
+  color: #fff;
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 4px 4px rgba(0,0,0, 0.1);
+}
+.b1 {
+  background: #1abc9c;
+}
+.b2 {
+  background: #3498db;
+  flex: 2;
+}
+.b3 {
+  background: #9b59b6;
+}
+.b4 {
+  background: #34495e;
+}
+.b5 {
+  background: #f1c40f;
+  flex: 3;
+}
+.b6 {
+  background: #e67e22;
+}
